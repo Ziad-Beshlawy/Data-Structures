@@ -1,3 +1,22 @@
+/*
+A program that reads user commands from the command prompt and react upon these commands.
+Detailed Operation:
+Print command: This command prints all the passed arguments separated by single spaces (indpendent of number of spaces/tabs between them).
+reverse command: This command prints the provided arguments in a reverse order separated by single spaces.
+upper command: This command prints all the provided arguments with all characters lowercase.
+shuffleWord: command This command shuffles the characters of a provided word by swapping every pair of characters.
+shuffleStatement: This command should shuffle the words of the provided statements.
+Delete: This command deletes one of the provided arguments and print the remaining arguments. The argument to be deleted is identified by the first parameter given after delete
+Middle: This command finds and prints the middle element(s) in a list of arguments. If the number is arguments after the command is even, then there are two middles.
+Add: This command should add all the integer numbers after add and return the sum.
+Random: This command generates a sequence of random numbers give a specific range (min and max numbers) and a seed value. The length of the sequence is passed as a parameter.
+ERROR Handling:
+the following error messages to reflect the reason of not performing the command
+"Undefined Command"
+"Incorrect Number of Arguments"
+"Incorret Data Type"
+*/
+
 #include<iostream>
 #include<cstring>
 #include<string>
