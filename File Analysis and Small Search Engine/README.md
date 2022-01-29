@@ -1,6 +1,6 @@
 # File Analysis and Small Search Engine
 ***a tool that analyzes a text file and returns information about its content. It also allows a simple search for words in the file***  
-In this assignment, we will use an in-order linked list to build a file indexing and (simple) search engine service.  
+This program uses in-order linked list to build a file indexing and (simple) search engine service.  
 The program is passed a text file name and a file containing commands.  
 
 # Detailed Operation  
@@ -26,4 +26,8 @@ is "starting Te", it shall print all words starting with "Te", for example
 passed a command "containing al:, it prints words such as "shall" "all"
 in a table format
 8. command: search mystr -> Prints all words that contain the string "mystr"
-along with the line numbers in which they exist.
+along with the line numbers in which they exist.  
+# Contents  
+- a2.cpp :  Main program
+- inord_list.h : in order list class header file
+-  inord_list.cpp : in order list class implementation 
